@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="assets/js/index.js"></script>
+  <title>Chit</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a class="logo" href="index.html">Логотип</a>
+
+      <nav>
+        <ul>
+          <li class="has-child"><a href="#"><span>Каталог</span></a>
+            <ul>
+              <li><a href="#">Резиновая крошка</a></li>
+              <li><a href="#">Крашеная SBR крошка</a></li>
+              <li><a href="#">ЭПДМ (EPDM) каучуковая крошка</a></li>
+              <li><a href="#">TPV крошка</a></li>
+            </ul>
+          </li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Вопрос-Ответ</a></li>
+          <li><a href="#">Контакты</a></li>
+
+        </ul>
+      </nav>
+
+      <a href="tel:8 800 000-00-00" class="tel">8 800 000-00-00</a>
+      <a href="#" class="btn">Обратный звонок</a>
+
+      <button class="btn btn--burger btn--transparent" mobile-menu-button=""> <span></span> <span></span> <span></span>
+        <span></span> </button>
+    </div>
+  </header>
+
+  <section class="breadcrumbs">
+    <div class="container">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Крашеная SBR крошка</a></li>
+        <li><a href="#">Крашеная крошка цвета молочного шоколада</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec_sale">
+    <div class="container">
+      <main class="sec_sale-left">
+        <h1>Крашеная крошка цвета молочного шоколада</h1>
+
+        <div class="sec_sale-card">
+          <div class="sale_card-top">
+            <div class="card_img">
+              <img src="assets/img/Rectangle1.png">
+            </div>
+            <div class="sale_card-info">
+              <p class="sale_text">Шоколадная крашеная крошка — это экологически чистый материал для обустройства
+                детских площадок, спортивных объектов, придомовых территорий. Гранулят сделан из переработанных
+                автомобильных покрышек. Шоколадный оттенок крошке придаёт светостойкий пигмент.</p>
+
+              <div class="sale_card-calc">
+                <span>Цена:</span>
+                <div>
+                  <span class="discount">59</span>
+                  <span class="price">59</span>
+                  <span class="weight"> ₽/кг</span>
+                </div>
+
+                <p>Упаковка 25 кг</p>
+                <div>
+                  <label for="input"></label>
+
+                  <button type="button" class="btn-calc"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">-</button>
+
+                  <input class="input-calc" min="1" value="1" name="input" type="number" id="col" value="1">
+
+                  <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                    class="btn-calc">+</button>
+                </div>
+
+                <button class="btn">Заказать</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="sale_card-bottom">
+            <p class="sale_text">
+              Крашеную резиновую крошку можно уложить под открытым небом, не переживая за внешний вид покрытия.
+              Материалу не страшны сильные дожди, снег, температурные колебания и палящие солнечные лучи. Даже через 10
+              лет резиновое покрытие будет выглядеть так же, как и в день укладки. SBR крошку укладывают и в закрытых
+              помещениях. Такое покрытие подходит для тренажёрных залов, фитнес-центров, торговых и складских площадей.
+              Травмобезопасный материал с достоинством выдержит любые механические нагрузки.
+            </p>
+
+            <div class="sale_download">
+
+              <div class="download">
+                <span>Сертификат соответствия</span>
+                <a class="btn" href="#">Скачать PDF</a>
+              </div>
+              <div class="download">
+                <span>Экспертное заключение</span>
+                <a class="btn" href="#">Скачать PDF</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+
+      <aside class="sec_sale-right">
+        <h1>Каталог</h1>
+
+        <div class="sec_sale-catalog">
+          <ul>
+            <li><a href="#">Резиновая крошка</a></li>
+            <li><a href="#">Крашеная SBR крошка</a></li>
+            <li><a href="#">ЭПДМ (EPDM) каучуковая крошка</a></li>
+            <li><a href="#">TPV крошка</a></li>
+          </ul>
+        </div>
+
+        <div class="sec_right-card">
+          <div class="top">
+            <img src="assets/img/Rectangle2.png">
+            <a href="#">Крашеная крошка цвета темного шоколада</a>
+          </div>
+
+          <div class="bottom">
+            <div><span>59</span><span>56</span><span> ₽/кг</span>
+              <p>Упаковка 25 кг</p>
+            </div>
+
+              <a class="btn" href="#">Заказать</a>
+          </div>
+
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sec_3">
+    <div class="container">
+      <div class="sec_3-items">
+
+        <div class="sec_3-item">
+          <img src="assets/img/sec31.svg">
+          <h3>Долговечность</h3>
+          <p>Не боится различных климатических явлений</p>
+        </div>
+
+        <div class="sec_3-item">
+          <img src="assets/img/sec32.svg">
+          <h3>Износостойкость</h3>
+          <p>Устойчив к механическому износу</p>
+        </div>
+
+
+        <div class="sec_3-item">
+          <img src="assets/img/sec33.svg">
+          <h3>Безопасность</h3>
+          <p>«Мягкий асфальт» делает игровые площадки безопасными</p>
+        </div>
+
+        <div class="sec_3-item">
+          <img src="assets/img/sec34.svg">
+          <h3>Шумопоглощение</h3>
+          <p>Не боится различных климатических явлений</p>
+        </div>
+
+        <div class="sec_3-item">
+          <img src="assets/img/sec35.svg">
+          <h3>Антибактериально</h3>
+          <p>На поверхности не образуется плесень, не выживают бактерии</p>
+        </div>
+        <div class="sec_3-bottom">
+          <h2>Станьте нашим дилером</h2>
+          <p>Наше производство может поставлять продукцию по всей Росиии!</p>
+          <a class="btn" href="#">Стать дилером</a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="sec_4">
+    <div class="container">
+
+      <div class="sec_4-left">
+        <h2>Производство</h2>
+
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/cEMq-ap3qZw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="sec_4-right">
+        <h2>Где мы находимся</h2>
+
+        <img src="assets/img/maps.jpg">
+
+        <div class="card_adress">
+          <div class="adress">
+            <span>Адрес завода:</span>
+            <p>Московская область, Щёлково городской округ, рп. Фряново, ул. Фабричная, дом 1</p>
+          </div>
+          <div class="contact">
+            <span>отдел продаж</span>
+            <a href="#">8 (800) 000 00 00</a>
+            <span>почта</span>
+            <a href="#">info@primer.ru</a>
+          </div>
+          <div class="requisite">
+            <p>ОГРН: <span>1055000000000</span></p>
+            <p>ИНН: <span>5005000000</span></p>
+          </div>
+
+          <div class="social">
+            <a href="#">
+              <img src="assets/img/sec4-1.svg" style="width: 21px; height: 21px;">
+            </a>
+            <a href="#">
+              <img src="assets/img/sec4-2.svg" style="width: 20px; height: 17.45px;">
+            </a>
+            <a href="#">
+              <img src="assets/img/sec4-3.svg" style="width: 21px; height: 23px;">
+            </a>
+            <a href="#">
+              <img src="assets/img/sec4-4.svg" style="width: 17px; height: 17px;">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="sec_5">
+    <div class="container">
+      <div class="sec_5-left">
+        <h2>наши достижения</h2>
+
+        <div class="left_container">
+          <div class="left_content">
+            <p class="big">12</p>
+            <p class="little">лет<br> <span>компании</span></p>
+          </div>
+          <div class="left_content">
+            <p class="big">227000</p>
+            <p class="little">объектов<br> <span>под ключ</span></p>
+          </div>
+          <div class="left_content">
+            <p class="big">300000</p>
+            <p class="little">спортивных<br> <span>сооружений</span></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="sec_5-right">
+        <h2>наши партнеры</h2>
+
+        <div class="right_items">
+          <div class="right_item">
+            <img src="assets/img/sec5-1.jpg">
+            <p>Администрация <br> г.Клин</p>
+          </div>
+          <div class="right_item">
+            <img src="assets/img/sec5-2.jpg">
+            <p>Администрация <br> г.Химки</p>
+          </div>
+
+          <div class="right_item">
+            <img src="assets/img/sec5-3.jpg">
+            <p>Администрация <br> г.Ступино</p>
+          </div>
+
+          <div class="right_item">
+            <img src="assets/img/sec5-4.jpg">
+            <p>Администрация <br> г.Лосино-Петровский</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec_6">
+    <div class="container">
+      <div>
+        <h2 class="heading">Часто задаваемые вопросы:</h2>
+
+        <button class="accordion"> При какой температуре можно укладывать крошку? <i></i> </button>
+        <div class="panel">
+          <p>Рабочий диапазон достаточно велик. В зависимости от выбранного связующего можно работать при температуре от
+            +2 °C до +35 °C. Идеальная температура для проведения работ - 20 °C-25 °C.</p>
+        </div>
+        <button class="accordion">Можно ли обновить цвет покрытия из крошки? <i></i> </button>
+        <div class="panel">
+          <p>Рабочий диапазон достаточно велик. В зависимости от выбранного связующего можно работать при температуре от
+            +2 °C до +35 °C. Идеальная температура для проведения работ - 20 °C-25 °C.</p>
+        </div>
+
+        <button class="accordion"> Чем отмыть клей, пигмент после укладки крошки?<i></i> </button>
+        <div class="panel">
+          <p>Рабочий диапазон достаточно велик. В зависимости от выбранного связующего можно работать при температуре от
+            +2 °C до +35 °C. Идеальная температура для проведения работ - 20 °C-25 °C.</p>
+        </div>
+        <button class="accordion"> Правда ли что черная крошка опасна для здоровья? <i></i> </button>
+        <div class="panel">
+          <p>Рабочий диапазон достаточно велик. В зависимости от выбранного связующего можно работать при температуре от
+            +2 °C до +35 °C. Идеальная температура для проведения работ - 20 °C-25 °C.</p>
+        </div>
+        <button class="accordion"> Почему нельзя меньше расходовать крошки на метр? <i></i> </button>
+        <div class="panel">
+          <p>Рабочий диапазон достаточно велик. В зависимости от выбранного связующего можно работать при температуре от
+            +2 °C до +35 °C. Идеальная температура для проведения работ - 20 °C-25 °C.</p>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="title">Задать вопрос специалисту</h2>
+        <form>
+          <input type="text" name="Имя" id="name" class="text-field" placeholder="Как к вам обратиться?">
+          <p>Выберите удобный вид связи</p>
+
+          <div class="choose">
+            <input type="radio" name="Удобный вид связи" id="type-connection-1" value="Телефон" checked="">
+            <label for="type-connection-1"></label>
+
+            <input type="radio" name="Удобный вид связи" id="type-connection-2" value="Whatsapp">
+            <label for="type-connection-2"></label>
+
+            <input type="radio" name="Удобный вид связи" id="type-connection-3" value="telegram">
+            <label for="type-connection-3"></label>
+
+            <input type="radio" name="Удобный вид связи" id="type-connection-4" value="viber">
+            <label for="type-connection-4"></label>
+          </div>
+          <input type="text" name="Телефон" class="text-field" placeholder="+7 (902) - - -">
+          <button type="submit" class="btn">Бесплатная консультация</button>
+          <p class="notice">Нажимая на кнопку вы принимаете<br><a href="">условия передачи данных!</a></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="left">
+        <a class="logo" href="#">пример лого</a>
+        <small>Производство резиновой крошки</small>
+
+        <address>
+          <span class="title">Адрес офиса:</span>
+          <span class="address">г. Москва, Зеленоград, корпус 1651</span>
+          <span class="title">Адрес завода:</span>
+          <span class="address">Московская область, Щёлково городской округ, рп. Фряново, ул. Фабричная, дом 1</span>
+        </address>
+      </div>
+
+      <nav>
+        <div>
+          <p class="heading">Меню сайта</p>
+
+          <ul>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Вопрос-ответ</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="heading">Каталог продукции</p>
+
+          <ul>
+            <li><a href="#">Резиновая крошка</a></li>
+            <li><a href="#">Крашеная SBR крошка</a></li>
+            <li><a href="#">ЭПДМ (EPDM) каучуковая крошка</a></li>
+            <li><a href="#">TPV крошка</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="right">
+        <a href="tel:8 800 000-00-00" class="tel">8 800 000-00-00</a>
+        <a href="#callbackwidget" class="btn">Обратный звонок</a>
+        <a href="mailto:Hello@tigergroup.pro" class="mailto">Hello@tigergroup.pro</a>
+
+        <div class="social">
+          <a href="#" class="whatsapp">
+            <img src="assets/img/footer1.svg">
+          </a>
+          <a href="#" class="telegram">
+            <img src="assets/img/footer2.svg">
+          </a>
+          <a href="#" class="viber">
+            <img src="assets/img/footer3.svg">
+          </a>
+
+          <a href="#" class="insta">
+            <img src="assets/img/footer4.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section class="footer_info">
+    <div class="container">
+      <a href="#" class="copy">Политика конфиденциальности</a>
+      <p class="copy">© 2021, TIGER GROUP PRO </p>
+      <a href="#" class="copy">Пользовательское соглашение</a>
+    </div>
+
+  </section>
+
+  <a href="#" class="back__top" style="display: inline;"></a>
+</body>
+
+</html>
